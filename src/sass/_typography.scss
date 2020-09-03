@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Extrabld.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Proxima Nova Th';
+    font-weight: 800;
+    font-style: normal;
+}
+
+$font-size-base: 1.2rem !default;

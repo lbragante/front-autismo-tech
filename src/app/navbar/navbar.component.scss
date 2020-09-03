@@ -1,0 +1,23 @@
+@import '../../sass/colors';
+
+.navbar {
+    // box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: $dark !important;
+}
+
+// .bg-light {
+//     background-color: #fff !important;
+// }
+
+.is-active {
+    color: $primary;
+}
+
+.navbar-nav > li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
