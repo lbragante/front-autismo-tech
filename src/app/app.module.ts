@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MentoringComponent } from './mentoring/mentoring.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProfileComponent } from './profile/profile.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProfileComponent } from './profile/profile.component';
     NavbarComponent,
     MentoringComponent,
     NotFoundComponent,
-    ProfileComponent
+    ProfileComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,25 @@
 @import '../../sass/colors';
+@import '../../sass/typography';
 
 .navbar {
     // box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
     background-color: transparent !important;
 }
 
+.navbar-brand {
+    font-family: 'Proxima Nova Th', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: $dark;
+}
+
 a.nav-link {
     color: $dark !important;
+    transition: 0.3s;
+}
+
+a.nav-link:hover {
+    color: $primary !important;
 }
 
 // .bg-light {

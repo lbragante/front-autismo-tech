@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'registrar', component: SignupComponent },
   {
-    path: '', component: NavbarComponent,
+    path: '', component: NavbarComponent, 
     children: [
       { path: 'perfil', component: ProfileComponent },
       { path: 'mentorias', component: MentoringComponent }

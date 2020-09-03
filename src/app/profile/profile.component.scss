@@ -1,5 +1,9 @@
 @import "../../sass/colors";
 
+.header {
+    padding: 3rem 0;
+}
+
 .conversation-area {
     .dialog {
         background-color: lighten($secondary, 32.5%);
