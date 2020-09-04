@@ -10,6 +10,7 @@ import { MentoringComponent } from './mentoring/mentoring.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProfileComponent } from './profile/profile.component';
 import { FooterComponent } from './footer/footer.component';
+import { MentorComponent } from './mentor/mentor.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     MentoringComponent,
     NotFoundComponent,
     ProfileComponent,
-    FooterComponent
+    FooterComponent,
+    MentorComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MentoringComponent } from './mentoring/mentoring.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProfileComponent } from './profile/profile.component';
+import { MentorComponent } from './mentor/mentor.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/registrar', pathMatch: 'full' },
@@ -15,7 +16,8 @@ const routes: Routes = [
     path: '', component: NavbarComponent, 
     children: [
       { path: 'perfil', component: ProfileComponent },
-      { path: 'mentorias', component: MentoringComponent }
+      { path: 'mentorias', component: MentoringComponent },
+      { path: 'mentor/painel', component: MentorComponent }
     ],
   },
   { path: '**', component: NotFoundComponent }
