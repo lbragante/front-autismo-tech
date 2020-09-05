@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Conversation } from '../shared/Conversation';
+import { ConversationService } from '../shared/conversation.service';
 
 @Component({
   selector: 'app-profile',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  conversationsObs$: Observable<Conversation[]>;
+
+  constructor(private conversationService: ConversationService) { }
 
   ngOnInit(): void {
   }
